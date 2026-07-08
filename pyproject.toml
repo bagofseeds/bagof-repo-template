@@ -1,5 +1,6 @@
 [project]
 name = "bagof-name"
+# Replace these template contacts before publishing.
 authors = [
     {name = "Your Name", email = "your.email@example.com"},
 ]
