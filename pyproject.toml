@@ -1,12 +1,38 @@
 [project]
-name = "bagof-submodule_name"
-description = "Template package for bagof.submodule_name"
+name = "bagof-name"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+maintainers = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+description = "Template package for bagof.name"
 readme = "README.md"
+license = "MIT"
+keywords = ["bagof", "template", "python"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "Typing :: Typed",
+]
 dynamic = ["version"]
 requires-python = ">=3.8"
 dependencies = [
     "typing_extensions>=4.13",
 ]
+
+[project.urls]
+Homepage = "https://github.com/bagofseeds/bagof-name"
+Documentation = "https://github.com/bagofseeds/bagof-name#readme"
+Issues = "https://github.com/bagofseeds/bagof-name/issues"
+Repository = "https://github.com/bagofseeds/bagof-name"
 
 [project.optional-dependencies]
 test = [
@@ -41,7 +67,7 @@ dirty = "{base_version}+{distance}.{vcs}{rev}.dirty"
 distance-dirty = "{base_version}+{distance}.{vcs}{rev}.dirty"
 
 [tool.versioningit.write]
-file = "src/bagof/submodule_name/_version.py"
+file = "src/bagof/name/_version.py"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
