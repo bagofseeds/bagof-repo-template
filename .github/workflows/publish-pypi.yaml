@@ -7,7 +7,7 @@ on:
       python-version:
         description: Python version
         required: false
-        default: "3.14"
+        default: "3.x"
         type: string
       tag:
         description: Commit / Branch / Tag / SHA to checkout
@@ -28,7 +28,7 @@ permissions:
 
 jobs:
   publish-pypi:
-    uses: bagofseeds/actions/.github/workflows/publish-pypi.yaml@bad7219d1cc6280a38fbcffd35ff71314a694bb9
+    uses: bagofseeds/actions/.github/workflows/publish-pypi.yaml@main
     with:
       python-version: ${{ inputs.python-version }}
       tag: ${{ inputs.tag }}

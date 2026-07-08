@@ -22,6 +22,6 @@ permissions:
 
 jobs:
   test:
-    uses: bagofseeds/actions/.github/workflows/test-matrix.yaml@bad7219d1cc6280a38fbcffd35ff71314a694bb9
+    uses: bagofseeds/actions/.github/workflows/test-matrix.yaml@main
     with:
       tag: ${{ inputs.tag }}

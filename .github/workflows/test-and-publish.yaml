@@ -26,7 +26,7 @@ on:
       python-version:
         description: Python version
         required: false
-        default: "3.14"
+        default: "3.x"
 
   workflow_call:
     inputs:
@@ -48,7 +48,7 @@ on:
       python-version:
         description: Python version
         required: false
-        default: "3.14"
+        default: "3.x"
         type: string
     secrets:
       PYPI_TOKEN:
@@ -61,7 +61,7 @@ permissions:
 
 jobs:
   test-and-publish:
-    uses: bagofseeds/actions/.github/workflows/test-and-publish.yaml@bad7219d1cc6280a38fbcffd35ff71314a694bb9
+    uses: bagofseeds/actions/.github/workflows/test-and-publish.yaml@main
     with:
       tag: ${{ inputs.tag }}
       test: ${{ inputs.test }}

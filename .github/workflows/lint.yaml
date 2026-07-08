@@ -10,7 +10,7 @@ on:
       python-version:
         description: Python version
         required: false
-        default: "3.14"
+        default: "3.x"
   workflow_call:
     inputs:
       tag:
@@ -21,7 +21,7 @@ on:
       python-version:
         description: Python version
         required: false
-        default: "3.14"
+        default: "3.x"
         type: string
 
 permissions:
@@ -29,7 +29,7 @@ permissions:
 
 jobs:
   ruff:
-    uses: bagofseeds/actions/.github/workflows/lint.yaml@bad7219d1cc6280a38fbcffd35ff71314a694bb9
+    uses: bagofseeds/actions/.github/workflows/lint.yaml@main
     with:
       tag: ${{ inputs.tag }}
       python-version: ${{ inputs.python-version }}
@@ -37,7 +37,7 @@ jobs:
       lint-command: ruff check .
 
   spellcheck:
-    uses: bagofseeds/actions/.github/workflows/lint.yaml@bad7219d1cc6280a38fbcffd35ff71314a694bb9
+    uses: bagofseeds/actions/.github/workflows/lint.yaml@main
     with:
       tag: ${{ inputs.tag }}
       python-version: ${{ inputs.python-version }}
