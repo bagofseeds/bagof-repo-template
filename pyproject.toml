@@ -68,7 +68,7 @@ dirty = "{base_version}+{distance}.{vcs}{rev}.dirty"
 distance-dirty = "{base_version}+{distance}.{vcs}{rev}.dirty"
 
 [tool.versioningit.write]
-file = "src/bagof/name/_version.py"
+file = "src/bagof/things/_version.py"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
