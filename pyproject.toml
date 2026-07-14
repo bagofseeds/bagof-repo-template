@@ -9,7 +9,7 @@ maintainers = [
 ]
 description = "Template package for bagof.things"
 readme = "README.md"
-license = "MIT"
+license = {text = "MIT"}
 keywords = ["bagof", "template", "python"]
 classifiers = [
     "Development Status :: 1 - Planning",
