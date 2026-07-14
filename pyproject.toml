@@ -1,5 +1,5 @@
 [project]
-name = "bagof-name"
+name = "bagof-things"
 # Replace these template contacts before publishing.
 authors = [
     {name = "Your Name", email = "your.email@example.com"},
@@ -7,7 +7,7 @@ authors = [
 maintainers = [
     {name = "Your Name", email = "your.email@example.com"},
 ]
-description = "Template package for bagof.name"
+description = "Template package for bagof.things"
 readme = "README.md"
 license = "MIT"
 keywords = ["bagof", "template", "python"]
@@ -30,10 +30,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bagofseeds/bagof-name"
-Documentation = "https://github.com/bagofseeds/bagof-name#readme"
-Issues = "https://github.com/bagofseeds/bagof-name/issues"
-Repository = "https://github.com/bagofseeds/bagof-name"
+Homepage = "https://github.com/bagofseeds/bagof-things"
+Documentation = "https://github.com/bagofseeds/bagof-things#readme"
+Issues = "https://github.com/bagofseeds/bagof-things/issues"
+Repository = "https://github.com/bagofseeds/bagof-things"
 
 [project.optional-dependencies]
 test = [
