@@ -19,7 +19,7 @@ site_description = "A template repository for useful things in a bag."
 # Read more: https://zensical.org/docs/setup/basics/#site_author
 site_author = "Yael Balbastre"
 
-site_url = "https://bagofseeds.github.io/bagof-repo-template/"
+site_url = "https://bagofseeds.github.io/bagof-things/"
 
 copyright = """
 Copyright &copy; 2026 The authors
